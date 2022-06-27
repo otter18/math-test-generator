@@ -119,4 +119,4 @@ def gen_pdf(name, tasks, col_cnt=2):
 
 
 if __name__ == '__main__':
-    gen_pdf(name='src/task.pdf', tasks=generate_task(50, TaskType.PLUS_MINUS_MULT), col_cnt=4)
+    gen_pdf(name='src/task.pdf', tasks=generate_task(50, TaskType.PLUS_AND_MINUS), col_cnt=4)
